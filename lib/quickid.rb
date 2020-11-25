@@ -1,4 +1,6 @@
-require "quickid/version"
+# frozen_string_literal: true
+
+require 'quickid/version'
 
 module Quickid
   class Error < StandardError; end
