@@ -1,6 +1,7 @@
 # Quickid
 
 [![Build Status](https://travis-ci.com/IceTimux/quickid.svg?token=rAjdWh2ebHkWCwPZyzwv&branch=master)](https://travis-ci.com/IceTimux/quickid)
+[![codecov](https://codecov.io/gh/IceTimux/quickid/branch/master/graph/badge.svg)](https://codecov.io/gh/IceTimux/quickid)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/quickid`. To experiment with that code, run `bin/console` for an interactive prompt.
 
