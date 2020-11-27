@@ -2,6 +2,7 @@
 
 require 'quickid/version'
 
+# Quick id
 module Quickid
   class Error < StandardError; end
 
@@ -14,11 +15,11 @@ module Quickid
     5.times do
       fakebit = rand(2)
 
-      if fakebit.zero?
-        id << LETTERS.sample
-      else
-        id << NUMERALS.sample
-      end
+      id << if fakebit.zero?
+              LETTERS.sample
+            else
+              NUMERALS.sample
+            end
     end
 
     id.join

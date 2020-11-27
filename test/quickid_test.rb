@@ -16,6 +16,6 @@ class QuickidTest < Minitest::Test
   end
 
   def test_that_id_is_returned
-    refute Quickid::id.length.zero?
+    refute Quickid.id.length.zero?
   end
 end
