@@ -25,7 +25,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'quickid'
+
+# Generate a random 5 character long alphanumeric string
+Quickid.id
+```
 
 ## Development
 
