@@ -12,7 +12,7 @@ Quickid generates a random 5 character long alphanumeric string.
 ```
 # example.rb
 
-require'quickid'
+require 'quickid'
 
 3.times.do
   puts Quickid.id
