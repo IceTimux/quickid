@@ -7,7 +7,15 @@ class QuickidTest < Minitest::Test
     refute_nil ::Quickid::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_that_letters_are_correct
+    assert_equal Quickid::LETTERS, ('a'..'z').to_a
+  end
+
+  def test_that_numerals_are_correct
+    assert_equal Quickid::NUMERALS, (0..9).to_a
+  end
+
+  def test_that_id_is_returned
+    refute Quickid::id.length.zero?
   end
 end
